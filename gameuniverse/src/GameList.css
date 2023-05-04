@@ -1,0 +1,206 @@
+.music-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+   .item-container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+  }
+   .item {
+    width: 50%; /* 2 items per row */
+    box-sizing: border-box;
+    padding: 5px;
+  }
+  .item {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #141313;
+  }
+  input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    border: black;
+    font-size: 17px;
+  } 
+  li {
+    color: white;
+  }
+  .music-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+ 
+  .item-container {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    list-style: none;
+   
+  }
+  .modal-content {
+    background-color: rgb(57, 57, 182);
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  .modal-content h5{
+    text-emphasis: inherit;
+    font-size: xx-large;
+    color: rgb(180, 168, 168);
+
+  }
+  .modal-content label{
+    font-weight: 100;
+    font-size: large;
+    color: whitesmoke !important;
+
+    
+  }
+  .modal-content p{
+    font-size: large;
+    color: rgb(180, 168, 168) !important;
+   
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
+
+ 
+  .item {
+    width: 50%; /* 2 items per row */
+    box-sizing: border-box;
+    padding: 5px;
+  }
+  .item {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #6e5e5e;
+  }
+  input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    border: black;
+    font-size: 17px;
+  }  
+  li {
+    color: white;
+  }
+  button {
+    background-color: #020303;
+    border-color: rgb(209, 197, 197);
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #141313;
+  }
+  input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    border: black;
+    font-size: 17px;
+  }
+
+
+ 
+h2 {
+    background-color: rgb(12, 15, 59);
+}
+.card p {
+  font-size: medium;
+  color: #807777; /* Lightest grey with 4.5:1 contrast over white */
+  line-height: 1.5; /* Space between lines of the paragraph */
+}
+.card label {
+  color: black;
+}
+body {
+   
+  background-color: rgb(12, 15, 59)!important;
+}
+.card, .modal-dialog {
+   
+  background-color:rgb(251, 249, 251)!important;
+
+
+
+
+}
+.card{
+  padding: 5px;
+}
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #dddddd;
+}
+
+
+li {
+  float: left;
+}
+
+
+li a {
+  display: block;
+  padding: 8px;
+}
+
+
+img{
+  padding: 5px;
+  display: block;
+ 
+}
+.music-list{
+  padding: 0%;
+ display: flex;
+}
+.modal-content{
+  display: block;
+  border-radius: 25px;
+  padding: 40px;
+}
+.modal-content img{
+  width: 300px;
+}
+.card-img-bottom{
+display: flex;
+max-width: 100%;
+}
